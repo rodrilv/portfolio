@@ -1,0 +1,43 @@
+.skill-container
+    display: flex
+    flex-direction: column
+    margin: 1px
+    padding: 10px
+    gap: 10px
+    border-radius: 10px
+    background-color: black
+.skill
+    padding: 20px
+    display: flex
+    flex-direction: column
+    text-align: center
+.xp
+    width: 250px
+    height: 12px
+    border: solid grey 1px
+    border-radius: 20px
+    margin-bottom: 30px
+
+.xp-progress
+    height: 12px
+    background-color: #65fc81
+    border-radius: 20px
+    animation: Loading linear
+    animation-timeline: view()
+    animation-range: entry 0% cover 20%
+
+.skill-image
+    min-height: 100px
+    min-width: 100px
+    img
+        max-width: 100px
+
+@keyframes Loading
+    0%
+        width: 0px
+    10%
+        width: 20px
+    40%
+        width: 120px
+    60%
+        width: 180px

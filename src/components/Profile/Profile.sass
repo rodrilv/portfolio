@@ -1,0 +1,73 @@
+.profile-container
+    display: flex
+    flex-direction: row
+    position: relative
+    width: 600px
+    height: 200px
+    gap: 40px
+    background-color: black
+    border-radius: 10px
+    margin-left: auto
+    margin-right: auto
+
+.profile-socials
+    display: flex
+    flex-direction: row
+    gap: 20px
+
+/*.profile-container::after, .profile-container::before
+    content: ''
+    position: absolute
+    background: conic-gradient(from var(--angle), transparent 60%, green)
+    width: 605px
+    height: 205px
+    translate: -5px -5px
+    border-radius: 14px
+    animation: 4s Spin linear infinite */
+
+/*.profile-container::before
+    filter: blur(1.5rem)
+    opacity: 0.5*/
+
+.profile-picture
+    img
+        position: absolute
+        margin-top: 20px
+        margin-left: 20px
+        max-width: 160px
+        border-radius: 120px
+        transition: 0.3s
+        &:hover
+            transition: 0.3s
+            -webkit-box-shadow: 0px 0px 0px 8px rgba(173,173,173,1)
+            -moz-box-shadow: 0px 0px 0px 8px rgba(173,173,173,1)
+            box-shadow: 0px 0px 0px 8px rgba(173,173,173,1)
+            
+
+.profile-info
+    margin-top: 30px
+    margin-left: 160px
+    svg
+        cursor: pointer
+        font-size: 30px
+
+.linkedin
+    transition: 0.5s
+    &:hover
+        color: #0E76A8
+
+.github
+    transition: 0.5s
+    &:hover
+        color: #0E76A8
+
+@media screen and (max-width: 666px)
+    .profile-container
+        width: 95vw
+        height: 240px
+    .profile-info
+        font-size: 10px
+    .profile-picture
+        img
+            margin-top: 40px
+
