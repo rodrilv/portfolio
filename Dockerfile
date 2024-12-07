@@ -5,5 +5,5 @@ COPY . /portfolio
 RUN npm i -g pnpm
 RUN pnpm install
 RUN pnpm build
-EXPOSE 5173
+EXPOSE 5175
 CMD ["pnpm", "run", "preview", "--host", "--port", "5175"]
