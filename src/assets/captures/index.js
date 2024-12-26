@@ -9,6 +9,7 @@ import R4gamestore from './gamestore.png'
 import R4gameadmin from './gameadmin.png'
 import Franchises from './Franchises.png'
 import Mudanzafy from './mudanzafy.png'
+import APRO from './APRO.png'
 
 export const Captures = {
     crm: CrmCaputure,
@@ -21,5 +22,6 @@ export const Captures = {
     autocontrol: MexQAuto,
     nualai: NualaiApp,
     gamestore: R4gamestore,
-    gameadmin: R4gameadmin
+    gameadmin: R4gameadmin,
+    apro: APRO
 }

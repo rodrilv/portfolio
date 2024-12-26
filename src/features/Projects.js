@@ -44,6 +44,12 @@ const Projects = [
         ref: "https://wa.me/5214497570199"
     },
     {
+        image: Captures.apro,
+        title: 'APRO',
+        description: 'APRO: Micro-service that creates an Interface (API) to communicate CRM (React) with IssabelPBX (Asterisk)',
+        ref: "#"
+    },
+    {
         image: Captures.map,
         title: 'Interactive Map',
         description: 'Interactive map that shows information depending on the selected state.',
