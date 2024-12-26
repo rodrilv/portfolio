@@ -73,9 +73,9 @@ function App() {
           </div>
 
           <div className="body-skills">
-            {Skills.map((skill) => {
+            {Skills.map((skill, index) => {
               return (
-                <div className="skill-border">
+                <div key={index} className="skill-border">
                   <Skill picture={skill.icon} name={skill.name} xp={skill.xp} />
                 </div>
               );
@@ -87,13 +87,14 @@ function App() {
           </div>
 
           <div className="body-projects">
-            {Projects.map((project) => {
+            {Projects.map((project, index) => {
               return (
-                <div>
+                <div key={index}>
                   <Project
                     picture={project.image}
                     title={project.title}
                     description={project.description}
+                    target={project.ref}
                   />
                 </div>
               );

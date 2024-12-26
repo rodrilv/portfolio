@@ -21,5 +21,6 @@ export const Icons = {
     postgres: PostgresLogo,
     ionic: IonicLogo,
     mongo: MongoLogo,
-    express: ExpressLogo
+    express: ExpressLogo,
+    sass: "https://sass-lang.com/assets/img/logos/logo.svg"
   }

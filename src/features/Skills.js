@@ -56,6 +56,11 @@ const Skills = [
       name: "MongoDB",
       icon: [Icons.mongo],
       xp: 230,
+    },
+    {
+      name: "SCSS, Sass",
+      icon: [Icons.sass],
+      xp: 230,
     }
   ];
 

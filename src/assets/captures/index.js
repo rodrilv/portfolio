@@ -7,12 +7,16 @@ import NomiMexq from './nomimexq.png'
 import NualaiApp from './nualai.png'
 import R4gamestore from './gamestore.png'
 import R4gameadmin from './gameadmin.png'
+import Franchises from './Franchises.png'
+import Mudanzafy from './mudanzafy.png'
 
 export const Captures = {
     crm: CrmCaputure,
     academy: AcademyCapture,
     cwvlbot: CwvlBot,
     map: CwvlMap,
+    franchises: Franchises,
+    mudanzafy: Mudanzafy,
     nomi: NomiMexq,
     autocontrol: MexQAuto,
     nualai: NualaiApp,
