@@ -25,7 +25,7 @@ function App() {
               <b>"Now I'm become </b>
               <i>code</i>
               <b>, the destroyer of frameworks"</b>
-              <i style={{ color: "#ffff" }}> - From the Bhagavad Codita</i>
+              <i style={{ color: "#ffff" }}> - From the Bhagavad Codita</i>😜
             </h2>
           </div>
 
@@ -36,7 +36,7 @@ function App() {
               Aguascalientes. I'm a software specialist with
             </p>
             <i style={{ fontSize: 18 }}>
-              3 years of experience<b className="cursor">|</b>
+              4 years of experience<b className="cursor">|</b>
             </i>
             <p>
               I've been enrolled in several companies offering technological
